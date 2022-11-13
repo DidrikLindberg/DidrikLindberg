@@ -16,7 +16,7 @@ body{
     height: 100vh;
     width: 100%;
     /*background-image: url("https://scontent-lax3-1.xx.fbcdn.net/v/t39.30808-6/306794325_5859314560753590_3444835267809454641_n.jpg?stp=cp6_dst-jpg&_nc_cat=104&ccb=1-7&_nc_sid=e3f864&_nc_ohc=Ue1FKk726o4AX8v0w4x&_nc_ht=scontent-lax3-1.xx&oh=00_AfCzQWZQ1TB3yMyVBtc-53dpJ-u4tnBjs37DXWl4RHowjQ&oe=6373D206");*/
-    background-image : linear-gradient(rgba(37, 50, 70, 0.341),rgba(33, 46, 59, 0.974)), url(./images/surf-background.jpg);
+    background-image : linear-gradient(rgba(37, 50, 70, 0.341),rgba(33, 46, 59, 0.974)), url("./images/surf-background.jpg");
     /*adjust background image to be wider*/
     background-position: bottom;
     box-shadow: 10px 500px 500px 10px #212f3f inset;
@@ -362,7 +362,7 @@ nav .fa-solid{
 
 @media only screen and (max-width: 600px){
     #Header{
-        background-image : linear-gradient(rgba(37, 50, 70, 0.341),rgba(33, 46, 59, 0.674)), url("/images/surf-background.jpg");
+        background-image : linear-gradient(rgba(37, 50, 70, 0.341),rgba(33, 46, 59, 0.674)), url("./images/surf-background.jpg");
         box-shadow: 0px 500px 500px 0px #212f3f inset;
     }
     .header-text{
