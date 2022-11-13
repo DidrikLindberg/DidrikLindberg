@@ -362,7 +362,7 @@ nav .fa-solid{
 
 @media only screen and (max-width: 600px){
     #Header{
-        background-image : linear-gradient(rgba(37, 50, 70, 0.341),rgba(33, 46, 59, 0.674)), url("./images/surf-background.jpg");
+        background-image : linear-gradient(rgba(37, 50, 70, 0.341),rgba(33, 46, 59, 0.674)), url("/images/surf-background.jpg");
         box-shadow: 0px 500px 500px 0px #212f3f inset;
     }
     .header-text{
