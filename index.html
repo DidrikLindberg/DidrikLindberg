@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <!--jQuery library--->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+
+
         <!--Cool data background-->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -31,9 +36,30 @@
         </nav>
         <div class="header-text">
             <p>Hi, I'm Didrik</p>
-            <h1>A Salesforce Consultant</h1>
+            <h1>Welcome to my Portfolio</h1>
         </div>
      </div>
+     <button id="modal-button">Open Modal</button>
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <span class="close-button">&times;</span>
+    <h2>Sign Up</h2>
+    <form>
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" class="form-control" id="name" placeholder="Enter your name">
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" class="form-control" id="email" placeholder="Enter your email">
+      </div>
+      <button type="submit" class="btn btn-primary">Sign Up</button>
+    </form>
+  </div>
+</div>
+    
+<script src="Script.js"></script>
+
 </div>
 <!-----about----->
 <div id="about">
@@ -134,7 +160,7 @@
                 <img id="img1" src="images/PlatformAppBuilder.png">
                 <div class="layer">
                     <h3>Platform App Builder</h3>
-                    <p>In Progress</p>
+                    <p>January 1st, 2023</p>
                     <a href=#></a><i class="fa-solid fa-arrow-up-right-from-square"></i>
                 </div>
             </div>
